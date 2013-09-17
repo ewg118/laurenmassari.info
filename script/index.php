@@ -24,15 +24,16 @@
 	<head>
 		<title>laurenmassari.info: ' . $pages->item(0)->getAttribute('title') . '</title>
 		<!-- yui grids -->
-		<link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/2.9.0/build/grids/grids-min.css"></link>
+		<link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/3.12.0/build/cssgrids/cssgrids-min.css"/>
 
 		<!-- jquery css dependencies -->
-		<link href="' . $display_path .'css/jquery.fancybox-1.3.4.css" rel="stylesheet"></link>
-		<link href="' . $display_path .'css/jquery-ui-1.8.10.custom.css" rel="stylesheet"></link>
-		<link href="' . $display_path .'css/vader.css" rel="stylesheet"></link>
+		<link href="' . $display_path .'css/jquery.fancybox-1.3.4.css" rel="stylesheet"/>
+		<link href="' . $display_path .'css/jquery-ui-1.8.10.custom.css" rel="stylesheet"/>
+		<link href="' . $display_path .'css/vader.css" rel="stylesheet"/>
+		<link href="http://fonts.googleapis.com/css?family=Questrial" rel="stylesheet" type="text/css"/>
 
 		<!-- local styling -->
-		<link href="css/style.css" rel="stylesheet"></link>
+		<link href="css/style.css" rel="stylesheet"/>
 		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
 		<script type="text/javascript" src="' . $display_path .'js/jquery-ui-1.8.15.custom.min.js"> //</script>
 		<script type="text/javascript" src="' . $display_path .'js/jquery.fancybox-1.3.4.min.js"> //</script>
@@ -51,12 +52,32 @@
 	</script>";
 	$html .= '</head>
 	<body>
-		<div id="doc4" class="yui-t3">
-			<div id="hd"><img src="' . $display_path . 'images/header.png" alt="Lauren Massari"/></div>
-			<div id="bd">
-				<div id="yui-main">
-					<div class="yui-b ui-corner-all">
-						<div id="content">';
+		<div class="yui3-g">
+			<div class="yui3-u-1">
+				<div id="hd">
+					<div class="banner">LAUREN MARI MASSARI</div>
+					<div class="sub-banner">
+						<span><a href="mailto:lauren.massari@gmail.com">lauren.massari@gmail.com</a></span>
+						<span class="divider">|</span>
+						<span><a href="http://www.linkedin.com/in/laurenmassari">LinkedIn</a></span>
+					</div>
+				</div>
+			</div>';
+	//sidebar
+	$allpages = $xmlDoc->getElementsByTagName('page');
+	$html .= '<div class="yui3-u-1-3"><ul class="menu">';
+	foreach ($allpages as $page){
+		$html .= '<li><button id="' . $page->getAttribute('id') . '-button">' . $page->getAttribute('title') . '</button></li>';
+	}
+	//links
+	foreach ($links as $link){
+		$html .= '<li><a href="' . $link->getAttribute('href') . '"><button>' . $link->getAttribute('title') . '</button></a></li>';
+	}
+	$html .= '</ul></div>';
+	
+	//main content
+	$html .= '<div class="yui3-u-2-3">
+				<div class="content ui-corner-all">';
 	//display current page
 	foreach ($pages as $page){
 		$serverName = "http://".$_SERVER['SERVER_NAME'];
@@ -100,24 +121,16 @@
 		}
 		$html .= '</div></div>';
 	}
+	//close main content
+	$html .= '</div></div>';
 	
-
-	//close main content divs
-	$html .= '</div></div></div>';
-	
-	//sidebar
-	$allpages = $xmlDoc->getElementsByTagName('page');
-	$html .= '<div class="yui-b"><ul class="menu">';
-	foreach ($allpages as $page){
-		$html .= '<li><button id="' . $page->getAttribute('id') . '-button">' . $page->getAttribute('title') . '</button></li>';
-	}
-	//links
-	foreach ($links as $link){
-		$html .= '<li><a href="' . $link->getAttribute('href') . '"><button>' . $link->getAttribute('title') . '</button></a></li>';
-	}
-	$html .= '</ul></div>';
-	$html .= '</div><div id="ft">';
-	$html .= '<p>All images copyright ©2011 Lauren Massari</p>';
+	//footer
+	$html .= '<div class="yui3-u-1" id="ft">';
+	$html .= '<p>All images copyright ©2013 Lauren Massari</p>';
 	$html .= '</div></div></body></html>';
+	
+	$doc = new DOMDocument();
+	$doc->loadXML($html);
+	//echo $doc->saveXML();
 	echo $html;
 ?>

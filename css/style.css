@@ -4,17 +4,21 @@ html {
 	font-family:Helvetica, Arial, sans-serif;
 	background:url("../images/ui-bg_gloss-wave_16_121212_500x100.png") repeat-x scroll 50% top #121212;
 }
+body {
+	width:1000px;
+}
 h1, h2, h3, h4 {
 	font-weight:normal;
 	text-transform:uppercase;
+	font-family: 'Questrial', sans-serif;
 }
 h1 {
 	font-size:150%;
-	letter-spacing:6px;
+	letter-spacing:4px;
 }
 h2 {
 	font-size:125%;
-	letter-spacing:4px;
+	letter-spacing:3px;
 }
 h3 {
 	letter-spacing:2px;
@@ -35,21 +39,37 @@ a:active{
 a img{
 	border:0;	
 }
-#doc4, .yui-t3 {
-	margin-left:10px;
-	margin-right:auto;
+#hd {
+	font-family: 'Questrial', sans-serif;
+	color:#ebebeb;
+	margin-bottom:20px;
+	letter-spacing:2px;
 }
-#hd,#ft {
+#hd a {
+	color: #ebebeb;
+}
+#ft {
 	letter-spacing:2px;
 	text-align:right;
 	color:#ebebeb;
 	margin-bottom:20px;
 }
+.banner {
+	font-size:36px;
+	margin-left:80px;
+}
+.sub-banner {
+	width:100%;
+	text-align:center;
+}
+.divider {
+	margin:0px 10px;
+}
 .hd-name {
 	font-size:24px;
 	letter-spacing:6px;
 }
-#yui-main .yui-b {
+.content {
 	border:1px solid #dddddd;
 	padding:5px;
 	background-color:#cccccc;

@@ -1,11 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <site>
 	<page id="index" title="About">
-		<p>Lauren Massari is a graduate student in the School of Architecture and Planning at University at Buffalo’s 3.5 year MARCH program, expecting to graduate in May 2012. She is in the Inclusive
-			Design Graduate Research Group, which uses the Seven Principles of Universal Design to design environments that promote health, well-being, and social participation for a wider range of
-			users. </p>
-		<p>Lauren received a Bachelor of Architectural History from the University of Virginia in 2009. Her thesis focused on the theater design firm of Rapp &amp; Rapp and how it responded to
-			vernacular architecture when designing small-town theaters, using the theaters in Charlottesville, Virginia and Peekskill, New York as case studies.</p>
+		<p>Lauren Massari currently works as a Multimedia Designer for the Institute for Advanced Technology in the Humanities, located at the University of Virginia. She primarily works on 3D architectural visualization. Projects she has worked on include Historic Fort Snelling, Virtual Williamsburg, Digital Montpelier.</p>
+
+		<p>Lauren received a Master of Architecture from the University at Buffalo in May 2012. Her concentration was in Inclusive Design, a multidisciplinary field that uses the Seven Principles of
+			Universal Design to evaluate and create products and environments that promote health, well-being, and social participation for a wider range of users. Lauren received an award for Design
+			Excellence in Inclusive Design from the School of Architecture and Planning at University at Buffalo in 2012, as well as an AIA Certificate of Merit for excellence in the study of
+			architecture.</p>
+
+		<p>Lauren received a Bachelor of Architectural History with a minor in art history from the University of Virginia in 2009. Her thesis focused on the theater design firm of Rapp &amp; Rapp and
+			how it responded to vernacular architecture when designing small-town theaters, using the theaters in Charlottesville, Virginia and Peekskill, New York as case studies.</p>
+
 	</page>
 	<page id="arc503" title="Downtown Buffalo Aquarium" subtitle="ARC503: Design Studio">
 		<p>The goal of this project was to come up with a design that would attract residents and visitors alike to Downtown Buffalo as part of a waterfront revitalization project. The aquarium
@@ -160,6 +165,44 @@
 			<image id="project2-11" title="section model - night"/>
 			<image id="project2-13" title="render - perspective"/>
 			<image id="project2-14" title="render - perspective"/>
+		</section>
+	</page>
+	<page id="arc606" title="Residential Life" subtitle="ARC606: Residential Life">
+		<p>For this Inclusive Design studio, each student came up with a design proposal for a new residence hall on University at Buffalo’s North Campus as part of UB’s recent comprehensive physical
+			plan.</p>
+		<p>Before beginning the design process, the studio was tasked with finding appropriate precedents in architecture periodicals. The focus was on larger-scale projects that incorporated any
+			combination of study, classroom, commercial, and recreational facilities into residential buildings or complexes, creating living-learning environments for students. The studio also
+			conducted literature reviews to discern what scientific research has discovered about the influence of the physical environment on residence hall occupants. As part of this initial
+			research, the studio also went on tours of three vastly different on-campus housing options available to University at Buffalo undergraduates; Greiner Hall, Ellicott Complex, and Governors
+			Complex.</p>
+		<p>To complement what was learned from the scientific studies, the studio also conducted focus groups with residents of the Governors Complex on UB’s North Campus. As the Inclusive Design
+			research group, the studio is focused on the users of buildings and strives to design to improve human performance, health and wellness, and social participation. As occupants of on-campus
+			housing, these students provided valuable information about what works and what needs improvement in their environment, and their concerns were addressed in our design proposals.</p>
+		<p>The knowledge gathered from precedent studies, tours, literature, and focus groups was synthesized into a design that meets both the studio’s goals of Inclusive Design and the university’s
+		expectations for a living-learning environment for UB’s comprehensive physical plan.</p>
+		<portfolio href="arc606-portfolio.pdf">click to view portfolio</portfolio>
+		<section title="Site Plan Analysis">
+			<image id="site" title="site plan" type="jp2"/>
+			<image id="arc606-01" title="main axes"/>		
+			<image id="arc606-02" title="outdoor gathering spaces"/>			
+		</section>
+		<section title="Design Concepts">
+			<image id="arc606-03" title="circulation"/>		
+			<image id="arc606-04" title="layout"/>
+		</section>
+		<section title="Plans, Sections, and Elevations">
+			<image id="arc606-05" title="with program layover" type="jp2"/>
+			<image id="arc606-06" title="with program layover" type="jp2"/>
+			<image id="arc606-07" title="L3-L7" type="jp2"/>
+			<image id="arc606-08" title="outdoor patios" type="jp2"/>
+			<image id="arc606-09" title="L8-L10" type="jp2"/>
+			<image id="arc606-10" title="unit layouts" type="jp2"/>
+			<image id="arc606-11" title="sections" type="jp2"/>
+			<image id="arc606-12" title="elevation and section d-d" type="jp2"/>			
+		</section>
+		<section title="Renders">
+			<image id="arc606-13" title="courtyard"/>		
+			<image id="arc606-14" title="overall"/>			
 		</section>
 	</page>
 	<page id="other" title="Other Works">
