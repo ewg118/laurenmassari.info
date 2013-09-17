@@ -1,0 +1,81 @@
+html {
+	background-color:silver;
+	font-size:14px;
+	font-family:Helvetica, Arial, sans-serif;
+	background:url("../images/ui-bg_gloss-wave_16_121212_500x100.png") repeat-x scroll 50% top #121212;
+}
+h1, h2, h3, h4 {
+	font-weight:normal;
+	text-transform:uppercase;
+}
+h1 {
+	font-size:150%;
+	letter-spacing:6px;
+}
+h2 {
+	font-size:125%;
+	letter-spacing:4px;
+}
+h3 {
+	letter-spacing:2px;
+}
+h1:first-letter, h2:first-letter, h3:first-letter {
+	font-size:150%;
+}
+a{
+	color:gray;
+	text-decoration:none;
+}
+a:hover{
+	color:maroon;
+}
+a:active{
+	color:silver;
+}
+a img{
+	border:0;	
+}
+#doc4, .yui-t3 {
+	margin-left:10px;
+	margin-right:auto;
+}
+#hd,#ft {
+	letter-spacing:2px;
+	text-align:right;
+	color:#ebebeb;
+	margin-bottom:20px;
+}
+.hd-name {
+	font-size:24px;
+	letter-spacing:6px;
+}
+#yui-main .yui-b {
+	border:1px solid #dddddd;
+	padding:5px;
+	background-color:#cccccc;
+}
+ul {
+	margin:50px 0;
+	padding:0;
+}
+.menu li {
+	list-style-type:none;
+	margin-bottom:25px;
+	text-align:center;
+}
+.images .thumbImage {
+	margin:5px;
+}
+.images .jp2Thumb {
+	margin:5px;
+}
+.section {
+	margin-bottom:20px;
+	text-align:right;
+}
+.hidden{
+	display:none;
+}
+.ui-button {
+	width:80%;
+}

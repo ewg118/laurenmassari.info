@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+	<page id="index" title="About">
+		<p>Lauren Massari is a graduate student in the School of Architecture and Planning at University at Buffalo’s 3.5 year MARCH program, expecting to graduate in May 2012. She is in the Inclusive
+			Design Graduate Research Group, which uses the Seven Principles of Universal Design to design environments that promote health, well-being, and social participation for a wider range of
+			users. </p>
+		<p>Lauren received a Bachelor of Architectural History from the University of Virginia in 2009. Her thesis focused on the theater design firm of Rapp &amp; Rapp and how it responded to
+			vernacular architecture when designing small-town theaters, using the theaters in Charlottesville, Virginia and Peekskill, New York as case studies.</p>
+	</page>
+	<page id="arc503" title="Downtown Buffalo Aquarium" subtitle="ARC503: Design Studio">
+		<p>The goal of this project was to come up with a design that would attract residents and visitors alike to Downtown Buffalo as part of a waterfront revitalization project. The aquarium
+			program was to include an IMAX theater, café, and parking area. Beyond the basic program requirements, part of my design concept was to transform the site into a transportation hub,
+			concentrating vehicular, pedestrian, metro, and boat traffic in a central location, providing information about the aquarium and Buffalo, and encouraging visitors to disperse across the
+			city.</p>
+		<section title="concept">
+			<image id="concept02" title="study model"/>
+			<image id="concept01" title="circulation arms - transportation hub"/>
+		</section>
+		<section title="diagrams">
+			<image id="diagram01" title="circulation"/>
+			<image id="diagram02" title="HVAC"/>
+			<image id="diagram04" title="structure - tank loading diagram"/>
+			<image id="diagram03" title="structure - column detail"/>
+			<image id="diagram05" title="wall section - natural light and ventilation"/>
+		</section>
+		<section title="physical model">
+			<!--<image id="phys-model01"/>-->
+			<image id="phys-model02" title="final model"/>
+			<image id="phys-model03" title="final model"/>
+			<image id="phys-model04" title="exterior perspective"/>
+			<image id="phys-model05" title="interior perspective"/>
+			<image id="phys-model06" title="interior perspective"/>
+			<image id="phys-model07" title="outdoor café perspective "/>
+		</section>
+		<section title="drawings">
+			<image id="arc503-drawing01" title="plan" type="jp2"/>
+			<image id="arc503-drawing03" title="sections" type="jp2"/>
+			<image id="arc503-drawing02" title="elevations" type="jp2"/>
+		</section>
+	</page>
+	<page id="arc504" title="Live-Work Community" subtitle="ARC504: Comprehensive Studio">
+		<p>The goal for comprehensive studio was to design a mixed-use project in Downtown Buffalo for a specific community, focusing on details such as structure, life safety, and mechanical systems.
+			My chosen community was cirque nouveau performers, who would live in the twenty-four residence units and practice and perform in the ellipsoid theater that opens onto a busy Buffalo
+			street. The main design challenge of this project was meeting the program requirements of twenty-four units, a public program, and a parking garage that could accommodate large trucks on a
+			relatively small urban site.</p>
+		<section title="concept">
+			<image id="concept01" title="maximizing southern exposure"/>
+			<image id="concept02" title="urban courtyards"/>
+			<image id="concept03" title="urban design - street rhythm"/>
+			<image id="concept04" title="parking ramps and structure"/>
+			<image id="concept05" title="live-work circulation and emergency egress"/>
+		</section>
+		<section title="drawings">
+			<image id="illustration01" title="ground plan" type="jp2"/>
+			<image id="arc504-drawing02" title="plans - levels 4 and 5" type="jp2"/>
+			<image id="arc504-drawing03" title="section b-b" type="jp2"/>
+			<image id="arc504-drawing04" title="structural diagrams" type="jp2"/>
+			<image id="arc504-drawing05" title="wall section" type="jp2"/>
+		</section>
+		<section title=" theater section model">
+			<image id="section01"/>
+			<image id="section02"/>
+			<image id="section03"/>
+		</section>
+		<section title="physical model">
+			<image id="phys-model01"/>
+			<image id="phys-model02"/>
+			<image id="phys-model03"/>
+			<image id="phys-model04"/>
+			<image id="phys-model05" title="view from apartment voids"/>
+		</section>
+		<section title="digital model">
+			<image id="3dmodel01" title="aerial site view"/>
+			<image id="3dmodel04" title="daytime photocollage"/>
+			<image id="3dmodel02" title="night render"/>
+			<image id="3dmodel03" title="night render"/>
+		</section>
+	</page>
+	<page id="ireland" title="Circumnavigating the Irish Coast">
+		<p>The first month of this study abroad program was spent travelling around the Irish Coast, spending a few days each in the cities of Dublin, Cork, Killarney, Limerick, Galway, Sligo, Derry,
+			and Belfast, learning about the culture, history, and landscape of each area. During this month of travel, we studied the works of Irish authors and poets and made travel-sized models
+			based on our experiences in the cities. The second half of the trip was spent back in Dublin, where we researched Irish architectural typologies and used studio space at University College
+			Dublin to design four houses that reflected four different parts of the country.</p>
+		<portfolio href="ireland-portfolio.pdf">click to view portfolio</portfolio>
+		<section title="Dalkey Commons">
+			<image id="dalkey01" title="site plan"/>
+			<image id="dalkey02" title="plans and section" type="jp2"/>
+			<image id="dalkey03" title="physical model"/>
+			<image id="dalkey04" title="physical model"/>
+			<image id="dalkey05" title="photocollage"/>
+		</section>
+		<section title="Derry">
+			<image id="derry01" title="site plan"/>
+			<image id="derry02" title="plans and section" type="jp2"/>
+			<image id="derry03" title="physical model"/>
+			<image id="derry04" title="physical model"/>
+			<image id="derry05" title="perspective"/>
+		</section>
+		<section title="Limerick">
+			<image id="limerick01" title="site plan"/>
+			<image id="limerick02" title="plans and section" type="jp2"/>
+			<image id="limerick04" title="physical model"/>
+			<image id="limerick03" title="physical model"/>
+			<image id="limerick05" title="perspective"/>
+		</section>
+		<section title="Waterville">
+			<image id="waterville01" title="site plan"/>
+			<image id="waterville02" title="plans and section"/>
+			<image id="waterville03" title="physical model"/>
+			<image id="waterville04" title="physical model"/>
+			<image id="waterville05" title="perspective"/>
+		</section>
+	</page>
+	<page id="arc605" title="Public|Private" subtitle="ARC605: Inclusive Design Studio">
+		<p>This semester consisted of two projects, the first of which was to design a disaster relief toilet for the Marine A grain elevator located just south of Downtown Buffalo. The design had to
+			accommodate the needs of ourselves and an imaginary client, and, among other requirements, had to be easily transportable and simple to construct. For the second design project, we
+			reimagined the Marine A grain elevator as an event destination and designed permanent public restrooms, largely based on research into ergonomics and precedents as well as information
+			obtained from a focus group. Designing permanent facilities also enabled us to focus more on the users’ multisensory experiences within the space and to go beyond the expectations of a
+			public restroom.</p>
+		<portfolio href="arc605-portfolio.pdf">click to view portfolio</portfolio>
+		<section title="Site Plan and Photographs">
+			<image id="site" title="site plan"/>
+			<image id="arc605-01" title="grain silo - basement level"/>
+			<image id="arc605-02" title="marine tower"/>
+			<image id="arc605-03" title="marine tower"/>
+			<image id="arc605-04" title="marine tower wheels"/>
+			<image id="arc605-05" title="grain elevator exterior"/>
+			<image id="arc605-06" title="Marine A grain elevator"/>
+		</section>
+		<section title="Disaster Relief Toilet">
+			<image id="project1-10" title="body movement documentation"/>
+			<image id="project1-01" title="full-scale model"/>
+			<image id="project1-02" title="refuse bag with water-absorbing material"/>
+			<image id="project1-03" title="use"/>
+			<image id="project1-05" title="templates - economy of material"/>
+			<image id="project1-06" title="assembly"/>
+			<image id="project1-07" title="axon of unit on-site"/>
+			<image id="project1-08" title="corner detail of enclosure"/>
+			<image id="project1-09" title="enclosure assembly"/>
+			<image id="project1-13" title="plan"/>
+			<image id="project1-14" title="section"/>
+			<image id="project1-11" title="perspective"/>
+			<image id="project1-12" title="perspective"/>
+			<image id="project1-15" title="perspective"/>
+			<image id="project1-16" title="perspective"/>
+			<image id="project1-04" title="final review"/>
+		</section>
+		<section title="Public Restrooms for an Event Destination">
+			<image id="project2-04" title="concept - grain circulation section"/>
+			<image id="project2-03" title="concept - grain circulation plan"/>
+			<image id="project2-01" title="circulation crowd condition" type="jp2"/>
+			<image id="project2-02" title="circulation" type="jp2"/>
+			<image id="project2-05" title="diagrams" type="jp2"/>
+			<image id="project2-06" title="marine tower plan" type="jp2"/>
+			<image id="project2-08" title="plan and section of one unit" type="jp2"/>
+			<image id="project2-07" title="axonometric" type="jp2"/>
+			<image id="project2-09" title="material study"/>
+			<image id="project2-10" title="material study"/>
+			<image id="project2-12" title="section model"/>
+			<image id="project2-11" title="section model - night"/>
+			<image id="project2-13" title="render - perspective"/>
+			<image id="project2-14" title="render - perspective"/>
+		</section>
+	</page>
+	<page id="other" title="Other Works">
+		<section>
+			<image id="other01" title="intersections"/>
+			<image id="other04" title="primary, secondary, and tertiary views"/>
+			<image id="other02" title="detail"/>
+			<image id="other03" title="ruled surfaces"/>
+			<image id="other05" title="ruled surfaces model"/>
+			<image id="other06" title="morph model"/>
+			<image id="other07" title="tone"/>
+			<image id="other08" title="line"/>
+			<image id="other09" title="photocollage"/>
+			<image id="other10" title="photocollage"/>
+			<image id="other11" title="photoshop collage"/>
+			<image id="other12" title="photoshop collage"/>
+			<image id="other14" title="mechanical animal (with Lisa Stern+Yang Gao)"/>
+			<image id="other13" title="mechanical animal - section (with Lisa Stern+Yang Gao)"/>
+			<image id="other15" title="computation methods final project"/>
+			<image id="other16" type="jp2" title="Reid House - Clark &amp; Menefee Architects"/>
+			<image id="other17" type="jp2" title="Kitsap Building - Miller Hull Architects"/>
+			<image id="other18" title="plasma-cut steel model (with Lisa Stern+Yang Gao)"/>
+		</section>
+		<section title="U.VA.: Drawing Historical Architecture">
+			<image id="uva01"/>
+			<image id="uva02"/>
+			<image id="uva03"/>
+			<image id="uva04"/>
+			<image id="uva05"/>
+			<image id="uva06"/>
+		</section>
+	</page>
+	<link title="Curriculum Vitae" href="cv.pdf"/>
+</site>
