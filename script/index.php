@@ -90,7 +90,7 @@
 		//display description
 		$description = $page->getElementsByTagName('p');
 		foreach ($description as $p){
-			$html .= '<p>' . $xmlDoc->saveHTML($p) . '</p>';
+			$html .= '<p>' . $xmlDoc->saveXML($p) . '</p>';
 		}
 		
 		//create links for portfolio
