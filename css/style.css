@@ -23,18 +23,15 @@ h2 {
 h3 {
 	letter-spacing:2px;
 }
-h1:first-letter, h2:first-letter, h3:first-letter {
-	font-size:150%;
-}
 a{
-	color:gray;
+	color:#282885;
 	text-decoration:none;
 }
 a:hover{
 	color:maroon;
 }
 a:active{
-	color:silver;
+	color:gray;
 }
 a img{
 	border:0;	
@@ -42,7 +39,7 @@ a img{
 #hd {
 	font-family: 'Questrial', sans-serif;
 	color:#ebebeb;
-	margin-bottom:20px;
+	padding-bottom:20px;
 	letter-spacing:2px;
 }
 #hd a {
@@ -59,8 +56,11 @@ a img{
 	margin-left:80px;
 }
 .sub-banner {
-	width:100%;
-	text-align:center;
+	text-align:right;
+	margin:20px 0;
+}
+.sub-banner span {
+	vertical-align: bottom;
 }
 .divider {
 	margin:0px 10px;
@@ -83,7 +83,7 @@ ul {
 	margin-bottom:25px;
 	text-align:center;
 }
-.images .thumbImage {
+.images .thumbImage, .thumbLink {
 	margin:5px;
 }
 .images .jp2Thumb {

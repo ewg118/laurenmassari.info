@@ -59,7 +59,9 @@
 					<div class="sub-banner">
 						<span><a href="mailto:lauren.massari@gmail.com">lauren.massari@gmail.com</a></span>
 						<span class="divider">|</span>
-						<span><a href="http://www.linkedin.com/in/laurenmassari">LinkedIn</a></span>
+						<span><a href="http://www.linkedin.com/in/laurenmassari"><img src="images/linkedin.png" alt="LinkedIn"/></a></span>
+						<span><a href="http://www.flickr.com/photos/laurenmassari/"><img src="images/flickr.png" alt="flickr"/></a></span>
+						<span><a href="http://twitter.com/lauren_massari"><img src="images/twitter.png" alt="twitter"/></a></span>
 					</div>
 				</div>
 			</div>';
@@ -88,7 +90,7 @@
 		//display description
 		$description = $page->getElementsByTagName('p');
 		foreach ($description as $p){
-			$html .= '<p>' . $p->nodeValue . '</p>';
+			$html .= '<p>' . $xmlDoc->saveHTML($p) . '</p>';
 		}
 		
 		//create links for portfolio
@@ -108,14 +110,20 @@
 			$images = $section->getElementsByTagName('image');
 			foreach($images as $image){
 				$type = $image->getAttribute('type');
+				$href = $image->getAttribute('href');
 				$imgPath = 'images/' . $id . '/' . $image->getAttribute('id');
-				if ($type != 'jp2'){
-					$html .= '<a href="' . $imgPath . '.jpg" class="thumbImage" title="' . $image->getAttribute('title') . '" rel="gallery">';
-					$html .= '<img src="' . $imgPath . '-thumb.jpg" alt="model"/></a>';
+				if (strlen($href) > 0){
+					$html .= '<a href="' . $href . '" class="thumbLink" title="' . $image->getAttribute('title') . '" target="_blank">';
+					$html .= '<img src="' . $imgPath . '-thumb.jpg" alt="image"/></a>';
 				} else {
-					$html .= '<a href="' . $serverName . ':8080/adore-djatoka/viewer.html?rft_id=' . $serverName . '/images/' . $id . '/jp2/' . $image->getAttribute('id') . '.jp2" title="' . $image->getAttribute('title') . '" target="_blank" class="jp2Thumb">';
-					$html .= '<img src="' . $imgPath . '-thumb.jpg" alt="model"/></a>';
-				}				
+					if ($type != 'jp2'){
+						$html .= '<a href="' . $imgPath . '.jpg" class="thumbImage" title="' . $image->getAttribute('title') . '" rel="gallery">';
+						$html .= '<img src="' . $imgPath . '-thumb.jpg" alt="image"/></a>';
+					} else {
+						$html .= '<a href="' . $serverName . ':8080/adore-djatoka/viewer.html?rft_id=' . $serverName . '/images/' . $id . '/jp2/' . $image->getAttribute('id') . '.jp2" title="' . $image->getAttribute('title') . '" target="_blank" class="jp2Thumb">';
+						$html .= '<img src="' . $imgPath . '-thumb.jpg" alt="image"/></a>';
+					}
+				}		
 			}			
 			$html .= '</div>';
 		}
