@@ -27,16 +27,16 @@
 		<link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/3.12.0/build/cssgrids/cssgrids-min.css"/>
 
 		<!-- jquery css dependencies -->
-		<link href="' . $display_path .'css/jquery.fancybox-1.3.4.css" rel="stylesheet"/>
+		<link href="' . $display_path .'css/jquery.fancybox.css?v=2.1.5" rel="stylesheet"/>
 		<link href="' . $display_path .'css/jquery-ui-1.8.10.custom.css" rel="stylesheet"/>
 		<link href="' . $display_path .'css/vader.css" rel="stylesheet"/>
-		<link href="http://fonts.googleapis.com/css?family=Questrial" rel="stylesheet" type="text/css"/>
+		<link href="http://fonts.googleapis.com/css?family=Spinnaker|Noto+Sans" rel="stylesheet" type="text/css"/>
 
 		<!-- local styling -->
 		<link href="css/style.css" rel="stylesheet"/>
-		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
+		<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
 		<script type="text/javascript" src="' . $display_path .'js/jquery-ui-1.8.15.custom.min.js"> //</script>
-		<script type="text/javascript" src="' . $display_path .'js/jquery.fancybox-1.3.4.min.js"> //</script>
+		<script type="text/javascript" src="' . $display_path .'js/jquery.fancybox.pack.js?v=2.1.5"> //</script>
 		<script type="text/javascript" src="' . $display_path .'js/functions.js"> //</script>';
 		//google analytics
 		$html .= "<script type=\"text/javascript\">

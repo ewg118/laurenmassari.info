@@ -1,16 +1,16 @@
 html {
 	background-color:silver;
-	font-size:14px;
-	font-family:Helvetica, Arial, sans-serif;
 	background:url("../images/ui-bg_gloss-wave_16_121212_500x100.png") repeat-x scroll 50% top #121212;
 }
 body {
 	width:1000px;
+	font-size:14px;
+	font-family:'Noto Sans', serif;
 }
 h1, h2, h3, h4 {
 	font-weight:normal;
 	text-transform:uppercase;
-	font-family: 'Questrial', sans-serif;
+	font-family: 'Spinnaker', sans-serif;
 }
 h1 {
 	font-size:150%;
@@ -37,7 +37,7 @@ a img{
 	border:0;	
 }
 #hd {
-	font-family: 'Questrial', sans-serif;
+	font-family: 'Spinnaker', sans-serif;
 	color:#ebebeb;
 	padding-bottom:20px;
 	letter-spacing:2px;
@@ -98,4 +98,7 @@ ul {
 }
 .ui-button {
 	width:80%;
+	font-family: 'Spinnaker', sans-serif;
+	text-transform:uppercase;
+	font-size:95%;
 }

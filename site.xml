@@ -1,20 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <site>
 	<page id="index" title="About">
-		<p>Lauren Massari currently works as a Multimedia Designer for the <a href="http://www.iath.virginia.edu/">Institute for Advanced Technology in the
-				Humanities</a>, located at the University of Virginia. She primarily works on 3D architectural visualization. Projects she has worked on include
-			Historic Fort Snelling, Virtual Williamsburg, and Digital Montpelier.</p>
-
+		<p>Lauren Massari works as a Multimedia Designer for the <a href="http://www.iath.virginia.edu/">Institute for Advanced Technology in the
+			Humanities</a>, located at the University of Virginia, where she primarily does 3D architectural visualization. Projects she has worked on include
+				<a href="http://soundscape.iath.virginia.edu/">Soundscape Architecture</a>, Digital Montpelier, Historic Fort Snelling, and <a
+				href="http://research.history.org/vw1776/3d/">Virtual Williamsburg</a>.</p>
 		<p>Lauren received a Master of Architecture from the University at Buffalo in May 2012. Her concentration was in <a
-				href="http://idea.ap.buffalo.edu//idg/work/index.asp">Inclusive Design</a>, a multidisciplinary field that uses the Seven Principles of
-			Universal Design to evaluate and create products and environments that promote health, well-being, and social participation for a wider range of
-			users. Lauren received an award for Design Excellence in Inclusive Design from the School of Architecture and Planning at University at Buffalo in
-			2012, as well as an AIA Certificate of Merit for excellence in the study of architecture.</p>
-
+				href="http://idea.ap.buffalo.edu/idg/work/index.asp">Inclusive Design</a>, a multidisciplinary field that uses the Seven Principles of Universal
+			Design to evaluate and create products and environments that promote health, well-being, and social participation for a wide range of users. Lauren
+			received an award for Design Excellence in Inclusive Design from the School of Architecture and Planning at University at Buffalo in 2012, as well
+			as an AIA Certificate of Merit for excellence in the study of architecture.</p>
 		<p>Lauren received a Bachelor of Architectural History with a minor in art history from the University of Virginia in 2009. Her thesis focused on the
 			theater design firm of Rapp &amp; Rapp and how it responded to vernacular architecture when designing small-town theaters, using the theaters in
 			Charlottesville, Virginia and Peekskill, New York as case studies.</p>
-
 	</page>
 	<page id="arc503" title="Downtown Buffalo Aquarium" subtitle="ARC503: Design Studio">
 		<p>The goal of this project was to come up with a design that would attract residents and visitors alike to Downtown Buffalo as part of a waterfront
