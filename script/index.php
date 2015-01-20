@@ -86,7 +86,7 @@
                     
                     <?php $sections = $page->getElementsByTagName('section'); ?>
                     <div class="row"> 
-                       <div class="col-md-<?php echo ($sections->length == 0) ? '12' : '6'; ?>">
+                       <div class="col-md-<?php echo ($sections->length == 0 && $id != 'index') ? '12' : '6'; ?>">
                             <h1><?php echo $page->getAttribute('title'); ?></h1>
                             <h2><?php echo $page->getAttribute('subtitle'); ?></h2>
                             <?php $description = $page->getElementsByTagName('p');
@@ -108,11 +108,13 @@
                             <div class="col-md-6">
                                 <?php foreach($sections as $section){ ?>
                                 <div class="row section">
+                                     <?php if (strlen($section->getAttribute('title')) > 0) { ?>
                                     <div class="col-md-12 text-right">
                                         <h3>
                                             <?php echo $section->getAttribute('title'); ?>
                                         </h3>
                                     </div>
+                                     <?php } ?>
                                     <?php $images = $section->getElementsByTagName('image');
                                         foreach($images as $image){ ?>
                                             <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 text-center pull-right">
@@ -139,6 +141,8 @@
                                 </div>
                             <?php } ?> 
                         </div>
+                    <?php } else if ($id == 'index'){ ?>
+                        <div class="col-md-6 text-center"><img src="images/portrait.jpg" style="max-width:100%;margin-top:60px;"/></div>
                     <?php } ?>
 		</div>
             </div>
