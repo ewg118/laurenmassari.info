@@ -1,24 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <site>
 	<page id="index" title="About">
-		<p>Lauren Massari works as a Multimedia Designer for the <a href="http://www.iath.virginia.edu/">Institute for Advanced Technology in the
-			Humanities</a>, located at the University of Virginia, where she primarily does 3D architectural visualization. Projects she has worked on include
-				<a href="http://soundscape.iath.virginia.edu/">Soundscape Architecture</a>, Digital Montpelier, Historic Fort Snelling, and <a
-				href="http://research.history.org/vw1776/3d/">Virtual Williamsburg</a>.</p>
-		<p>Lauren received a Master of Architecture from the University at Buffalo in May 2012. Her concentration was in <a
-				href="http://idea.ap.buffalo.edu/idg/work/index.asp">Inclusive Design</a>, a multidisciplinary field that uses the Seven Principles of Universal
-			Design to evaluate and create products and environments that promote health, well-being, and social participation for a wide range of users. Lauren
-			received an award for Design Excellence in Inclusive Design from the School of Architecture and Planning at University at Buffalo in 2012, as well
-			as an AIA Certificate of Merit for excellence in the study of architecture.</p>
-		<p>Lauren received a Bachelor of Architectural History with a minor in art history from the University of Virginia in 2009. Her thesis focused on the
-			theater design firm of Rapp &amp; Rapp and how it responded to vernacular architecture when designing small-town theaters, using the theaters in
-			Charlottesville, Virginia and Peekskill, New York as case studies.</p>
+		<p>Lauren Massari works as a Multimedia Designer for the <a href="http://www.iath.virginia.edu/">Institute for Advanced Technology in the Humanities</a>, located at the
+			University of Virginia, where she primarily does 3D architectural visualization. Projects she has worked on include <a href="http://soundscape.iath.virginia.edu/"
+				>Soundscape Architecture</a>, Digital Montpelier, Historic Fort Snelling, and <a href="http://research.history.org/vw1776/3d/">Virtual Williamsburg</a>.</p>
+		<p>Lauren received a Master of Architecture from the University at Buffalo in May 2012. Her concentration was in <a href="http://idea.ap.buffalo.edu/idg/work/index.asp"
+				>Inclusive Design</a>, a multidisciplinary field that uses the Seven Principles of Universal Design to evaluate and create products and environments that promote
+			health, well-being, and social participation for a wide range of users. Lauren received an award for Design Excellence in Inclusive Design from the School of
+			Architecture and Planning at University at Buffalo in 2012, as well as an AIA Certificate of Merit for excellence in the study of architecture.</p>
+		<p>Lauren received a Bachelor of Architectural History with a minor in art history from the University of Virginia in 2009. Her thesis focused on the theater design firm of
+			Rapp &amp; Rapp and how it responded to vernacular architecture when designing small-town theaters, using the theaters in Charlottesville, Virginia and Peekskill, New
+			York as case studies.</p>
 	</page>
-	<page id="arc503" title="Downtown Buffalo Aquarium" subtitle="ARC503: Design Studio">
-		<p>The goal of this project was to come up with a design that would attract residents and visitors alike to Downtown Buffalo as part of a waterfront
-			revitalization project. The aquarium program was to include an IMAX theater, café, and parking area. Beyond the basic program requirements, part of
-			my design concept was to transform the site into a transportation hub, concentrating vehicular, pedestrian, metro, and boat traffic in a central
-			location, providing information about the aquarium and Buffalo, and encouraging visitors to disperse across the city.</p>
+	<page id="arc503" title="Downtown Buffalo Aquarium" subtitle="ARC503: Design Studio" type="academic">
+		<p>The goal of this project was to come up with a design that would attract residents and visitors alike to Downtown Buffalo as part of a waterfront revitalization project.
+			The aquarium program was to include an IMAX theater, café, and parking area. Beyond the basic program requirements, part of my design concept was to transform the site
+			into a transportation hub, concentrating vehicular, pedestrian, metro, and boat traffic in a central location, providing information about the aquarium and Buffalo, and
+			encouraging visitors to disperse across the city.</p>
 		<section title="concept">
 			<image id="concept02" title="study model"/>
 			<image id="concept01" title="circulation arms - transportation hub"/>
@@ -45,12 +43,11 @@
 			<image id="arc503-drawing02" title="elevations" type="jp2"/>
 		</section>
 	</page>
-	<page id="arc504" title="Live-Work Community" subtitle="ARC504: Comprehensive Studio">
-		<p>The goal for comprehensive studio was to design a mixed-use project in Downtown Buffalo for a specific community, focusing on details such as
-			structure, life safety, and mechanical systems. My chosen community was cirque nouveau performers, who would live in the twenty-four residence units
-			and practice and perform in the ellipsoid theater that opens onto a busy Buffalo street. The main design challenge of this project was meeting the
-			program requirements of twenty-four units, a public program, and a parking garage that could accommodate large trucks on a relatively small urban
-			site.</p>
+	<page id="arc504" title="Live-Work Community" subtitle="ARC504: Comprehensive Studio" type="academic">
+		<p>The goal for comprehensive studio was to design a mixed-use project in Downtown Buffalo for a specific community, focusing on details such as structure, life safety, and
+			mechanical systems. My chosen community was cirque nouveau performers, who would live in the twenty-four residence units and practice and perform in the ellipsoid
+			theater that opens onto a busy Buffalo street. The main design challenge of this project was meeting the program requirements of twenty-four units, a public program,
+			and a parking garage that could accommodate large trucks on a relatively small urban site.</p>
 		<section title="concept">
 			<image id="concept01" title="maximizing southern exposure"/>
 			<image id="concept02" title="urban courtyards"/>
@@ -84,12 +81,11 @@
 			<image id="3dmodel03" title="night render"/>
 		</section>
 	</page>
-	<page id="ireland" title="Circumnavigating the Irish Coast">
-		<p>The first month of this study abroad program was spent travelling around the Irish Coast, spending a few days each in the cities of Dublin, Cork,
-			Killarney, Limerick, Galway, Sligo, Derry, and Belfast, learning about the culture, history, and landscape of each area. During this month of
-			travel, we studied the works of Irish authors and poets and made travel-sized models based on our experiences in the cities. The second half of the
-			trip was spent back in Dublin, where we researched Irish architectural typologies and used studio space at University College Dublin to design four
-			houses that reflected four different parts of the country.</p>
+	<page id="ireland" title="Circumnavigating the Irish Coast" type="academic">
+		<p>The first month of this study abroad program was spent travelling around the Irish Coast, spending a few days each in the cities of Dublin, Cork, Killarney, Limerick,
+			Galway, Sligo, Derry, and Belfast, learning about the culture, history, and landscape of each area. During this month of travel, we studied the works of Irish authors
+			and poets and made travel-sized models based on our experiences in the cities. The second half of the trip was spent back in Dublin, where we researched Irish
+			architectural typologies and used studio space at University College Dublin to design four houses that reflected four different parts of the country.</p>
 		<portfolio href="ireland-portfolio.pdf">click to view portfolio</portfolio>
 		<section title="Dalkey Commons">
 			<image id="dalkey01" title="site plan"/>
@@ -120,13 +116,13 @@
 			<image id="waterville05" title="perspective"/>
 		</section>
 	</page>
-	<page id="arc605" title="Public|Private" subtitle="ARC605: Inclusive Design Studio">
-		<p>This semester consisted of two projects, the first of which was to design a disaster relief toilet for the Marine A grain elevator located just south
-			of Downtown Buffalo. The design had to accommodate the needs of ourselves and an imaginary client, and, among other requirements, had to be easily
-			transportable and simple to construct. For the <a href="http://idea.ap.buffalo.edu//idg/work/fall2011/lauren_massari/massari_1.asp">second design
-				project</a>, we reimagined the Marine A grain elevator as an event destination and designed permanent public restrooms, largely based on
-			research into ergonomics and precedents as well as information obtained from a focus group. Designing permanent facilities also enabled us to focus
-			more on the users’ multisensory experiences within the space and to go beyond the expectations of a public restroom.</p>
+	<page id="arc605" title="Public|Private" subtitle="ARC605: Inclusive Design Studio" type="academic">
+		<p>This semester consisted of two projects, the first of which was to design a disaster relief toilet for the Marine A grain elevator located just south of Downtown
+			Buffalo. The design had to accommodate the needs of ourselves and an imaginary client, and, among other requirements, had to be easily transportable and simple to
+			construct. For the <a href="http://idea.ap.buffalo.edu//idg/work/fall2011/lauren_massari/massari_1.asp">second design project</a>, we reimagined the Marine A grain
+			elevator as an event destination and designed permanent public restrooms, largely based on research into ergonomics and precedents as well as information obtained from
+			a focus group. Designing permanent facilities also enabled us to focus more on the users’ multisensory experiences within the space and to go beyond the expectations of
+			a public restroom.</p>
 		<portfolio href="arc605-portfolio.pdf">click to view portfolio</portfolio>
 		<section title="Site Plan and Photographs">
 			<image id="site" title="site plan"/>
@@ -172,22 +168,21 @@
 			<image id="project2-14" title="render - perspective"/>
 		</section>
 	</page>
-	<page id="arc606" title="Residential Life" subtitle="ARC606: Residential Life">
+	<page id="arc606" title="Residential Life" subtitle="ARC606: Residential Life" type="academic">
 		<p>For this Inclusive Design studio, each student came up with a design proposal for a <a
-				href="http://idea.ap.buffalo.edu//idg/work/Spring2012/lauren_massari/massari_1.asp">new residence hall</a> on University at Buffalo’s North
-			Campus as part of UB’s recent comprehensive physical plan.</p>
-		<p>Before beginning the design process, the studio was tasked with finding appropriate precedents in architecture periodicals. The focus was on
-			larger-scale projects that incorporated any combination of study, classroom, commercial, and recreational facilities into residential buildings or
-			complexes, creating living-learning environments for students. The studio also conducted literature reviews to discern what scientific research has
-			discovered about the influence of the physical environment on residence hall occupants. As part of this initial research, the studio also went on
-			tours of three vastly different on-campus housing options available to University at Buffalo undergraduates; Greiner Hall, Ellicott Complex, and
-			Governors Complex.</p>
-		<p>To complement what was learned from the scientific studies, the studio also conducted focus groups with residents of the Governors Complex on UB’s
-			North Campus. As the Inclusive Design research group, the studio is focused on the users of buildings and strives to design to improve human
-			performance, health and wellness, and social participation. As occupants of on-campus housing, these students provided valuable information about
-			what works and what needs improvement in their environment, and their concerns were addressed in our design proposals.</p>
-		<p>The knowledge gathered from precedent studies, tours, literature, and focus groups was synthesized into a design that meets both the studio’s goals
-			of Inclusive Design and the university’s expectations for a living-learning environment for UB’s comprehensive physical plan.</p>
+				href="http://idea.ap.buffalo.edu//idg/work/Spring2012/lauren_massari/massari_1.asp">new residence hall</a> on University at Buffalo’s North Campus as part of UB’s
+			recent comprehensive physical plan.</p>
+		<p>Before beginning the design process, the studio was tasked with finding appropriate precedents in architecture periodicals. The focus was on larger-scale projects that
+			incorporated any combination of study, classroom, commercial, and recreational facilities into residential buildings or complexes, creating living-learning environments
+			for students. The studio also conducted literature reviews to discern what scientific research has discovered about the influence of the physical environment on
+			residence hall occupants. As part of this initial research, the studio also went on tours of three vastly different on-campus housing options available to University at
+			Buffalo undergraduates; Greiner Hall, Ellicott Complex, and Governors Complex.</p>
+		<p>To complement what was learned from the scientific studies, the studio also conducted focus groups with residents of the Governors Complex on UB’s North Campus. As the
+			Inclusive Design research group, the studio is focused on the users of buildings and strives to design to improve human performance, health and wellness, and social
+			participation. As occupants of on-campus housing, these students provided valuable information about what works and what needs improvement in their environment, and
+			their concerns were addressed in our design proposals.</p>
+		<p>The knowledge gathered from precedent studies, tours, literature, and focus groups was synthesized into a design that meets both the studio’s goals of Inclusive Design
+			and the university’s expectations for a living-learning environment for UB’s comprehensive physical plan.</p>
 		<portfolio href="arc606-portfolio.pdf">click to view portfolio</portfolio>
 		<section title="Site Plan Analysis">
 			<image id="site" title="site plan" type="jp2"/>
@@ -213,7 +208,7 @@
 			<image id="arc606-14" title="overall"/>
 		</section>
 	</page>
-	<page id="other" title="Other Works">
+	<page id="other" title="Other Works" type="academic">
 		<section>
 			<image id="other01" title="intersections"/>
 			<image id="other04" title="primary, secondary, and tertiary views"/>
@@ -244,6 +239,52 @@
 			<image id="uva05"/>
 			<image id="uva06"/>
 		</section>
+	</page>
+	<page id="juel" title="Jefferson's University, The Early Life" type="professional">
+		<p><a href="http://juel.iath.virginia.edu/">Jefferson's University, the Early Life (JUEL)</a> is an ongoing project in collaboration with the University of Virginia's
+			Office of the Provost. The first facet of the project is to make public early University records, personal recollections, and images that document the early years of
+			the University of Virginia, from its founding in 1819 until the end of the Civil War. This will be achieved through searchable University records and essays focusing on
+			events documented in primary resources. The second facet is a digital reconstruction of the original Academical Village resulting in renders, animations, and an
+			interactive model.</p>
+		<section title="Renders">
+			<image id="juel-01" title="Pavilion I"/>
+			<image id="juel-02" title="Pavilion I Frieze"/>
+			<image id="juel-03" title="Pavilion I Rear"/>
+			<image id="juel-04" title="Pavilion II"/>
+			<image id="juel-05" title="Pavilion II Frieze"/>
+			<image id="juel-06" title="Pavilion II Rear"/>
+			<image id="juel-07" title="Pavilion III Balustrade"/>
+			<image id="juel-08" title="Pavilion III Column Closeup"/>
+			<image id="juel-09" title="Pavilion III Columns"/>
+			<image id="juel-10" title="Pavilion III Rear"/>
+			<image id="juel-11" title="Pavilion III with Columns"/>
+			<image id="juel-12" title="Pavilion V"/>
+			<image id="juel-13" title="Pavilion V"/>
+			<image id="juel-14" title="Pavilion V Balcony"/>
+			<image id="juel-15" title="Pavilion V Roof Closeup"/>
+			<image id="juel-16" title="Crackerbox"/>
+			<image id="juel-17" title="Crackerbox"/>
+			<image id="juel-18" title="Crackerbox"/>
+			<image id="juel-19" title="Mrs. Gray's Kitchen"/>
+			<image id="juel-20" title="Mrs. Gray's Kitchen"/>
+		</section>
+	</page>
+	<page id="soundscape" title="Soundscape Architecture" type="professional">
+		<p><a href="http://soundscape.iath.virginia.edu/">Soundscape Architecture</a> is a collaboration between IATH and Karen Van Lengen, William R. Kenan, Jr. Professor of
+			Architecture at UVA. The project focuses on the aural qualities of iconic architecture from around the world, and seeks to analyze and reinterpret the visual, auditory,
+			and material aspects of architectural space.</p>
+	</page>
+	<page id="montpelier" title="Digital Montpelier" type="professional">
+		<p><a href="http://www.digitalmontpelier.org/">The Digital Montpelier Project</a>, an IATH collaboration with Gardiner Hallock, features three models tracing the evolution
+			of President James Madison's home from its initial construction circa 1764 through to its final expansion circa 1812. The project resulted in three interactive models
+			in which visitors can travel through the digitally reconstructed building phases and learn more about the mansion's restoration through slideshows documenting
+			archaeological work and analysis of findings.</p>
+	</page>
+	<page id="minnesota" title="Historical Architecture of Minnesota" type="professional">
+		<p><a href="http://mhs.iath.virginia.edu/">Historical Architecture of Minnesota</a> is the result of a collaboration between IATH and the Minnesota Historical Society, and the focus of
+			the project was to create digital reconstructions of several of Minnesota's historically significant buildings. The first phase resulted in a digital model and
+			animations of the Washburn A Mill and the surrounding Mill City area located in Minneapolis circa 1885. Phase two resulted in digital reconstructions and animations of
+			Fort Snelling, located in Saint Paul, at three historically significant times: 1838, 1862, and 1945.</p>
 	</page>
 	<link title="Curriculum Vitae" href="cv.pdf"/>
 </site>
