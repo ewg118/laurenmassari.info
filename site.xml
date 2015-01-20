@@ -279,12 +279,37 @@
 			of President James Madison's home from its initial construction circa 1764 through to its final expansion circa 1812. The project resulted in three interactive models
 			in which visitors can travel through the digitally reconstructed building phases and learn more about the mansion's restoration through slideshows documenting
 			archaeological work and analysis of findings.</p>
+		<section title="Renders">
+			<image id="montpelier-01" title="Entry 1"/>
+			<image id="montpelier-02" title="Entry 4"/>
+			<image id="montpelier-03" title="PIII 108"/>
+			<image id="montpelier-04" title="PIII Large Bedroom"/>
+			<image id="montpelier-05" title="PIII Lower North Passage"/>
+			<image id="montpelier-06" title="PIII North Wing"/>
+			<image id="montpelier-07" title="PIII South Wing"/>
+			<image id="montpelier-08" title="PIII View from Slave Yard"/>
+			<image id="montpelier-09" title="PIII West Facade"/>
+		</section>
 	</page>
 	<page id="minnesota" title="Historical Architecture of Minnesota" type="professional">
 		<p><a href="http://mhs.iath.virginia.edu/">Historical Architecture of Minnesota</a> is the result of a collaboration between IATH and the Minnesota Historical Society, and the focus of
 			the project was to create digital reconstructions of several of Minnesota's historically significant buildings. The first phase resulted in a digital model and
 			animations of the Washburn A Mill and the surrounding Mill City area located in Minneapolis circa 1885. Phase two resulted in digital reconstructions and animations of
 			Fort Snelling, located in Saint Paul, at three historically significant times: 1838, 1862, and 1945.</p>
+		<section title="Renders">
+			<image id="minnesota-01" title="1838: Round Tower"/>
+			<image id="minnesota-02" title="1838: Parade Ground Aerial"/>
+			<image id="minnesota-03" title="1838: Fort Closeup"/>
+			<image id="minnesota-04" title="1838: Plan View of Fort"/>
+			<image id="minnesota-05" title="1862: Round Tower"/>
+			<image id="minnesota-06" title="1862: Parade Ground Aerial"/>
+			<image id="minnesota-07" title="1862: Fort Closeup"/>
+			<image id="minnesota-08" title="1862: View of Camp"/>
+			<image id="minnesota-09" title="1945: Round Tower"/>
+			<image id="minnesota-10" title="1945: Parade Ground Aerial"/>
+			<image id="minnesota-11" title="1945: Fort Closeup"/>
+			<image id="minnesota-12" title="1945: Plan View of Fort"/>
+		</section>
 	</page>
 	<link title="Curriculum Vitae" href="cv.pdf"/>
 </site>
