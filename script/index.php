@@ -38,9 +38,9 @@
 		<!-- bootstrap -->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css"/>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js">//</script>
-                <meta charset="utf-8">
-                <meta http-equiv="X-UA-Compatible" content="IE=edge">
-                <meta name="viewport" content="width=device-width, initial-scale=1">
+                <meta charset="utf-8"/>
+                <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+                <meta name="viewport" content="width=device-width, initial-scale=1"/>
 
 		<!-- local styling -->
 		<link href="<?php echo $display_path . 'css/style.css' ?>" rel="stylesheet"/>
@@ -120,7 +120,7 @@
                                      <?php } ?>
                                     <?php $images = $section->getElementsByTagName('image');
                                         foreach($images as $image){ ?>
-                                            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 text-center pull-right">
+                                            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-6 text-center pull-right">
                                             <?php $type = $image->getAttribute('type');
                                             $href = $image->getAttribute('href');
                                             $imgPath = 'images/' . $id . '/' . $image->getAttribute('id');
