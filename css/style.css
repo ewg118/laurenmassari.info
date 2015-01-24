@@ -1,5 +1,4 @@
 body {
-	font-family: 'Spinnaker', sans-serif;
 	color:white;
 	background-color:black
 }
@@ -22,20 +21,10 @@ h3 {
 a img {
 	border:0;
 }
-#hd {
-	font-family: 'Spinnaker', sans-serif;
-	color:#ebebeb;
-	padding-bottom:20px;
-	letter-spacing:2px;
-}
-#hd a {
-	color: #ebebeb;
-}
-#ft {
-	letter-spacing:2px;
+#footer {
 	text-align:right;
 	color:#ebebeb;
-	margin-bottom:20px;
+	margin:20px 0;
 }
 .banner {
 	font-size:36px;
@@ -45,7 +34,7 @@ a img {
 	margin:20px 0;
 }
 .sub-banner a {
-	color:white;	
+	color:white;
 }
 .sub-banner span {
 	vertical-align: bottom;
@@ -71,12 +60,14 @@ a img {
   JUMBOTRON
   ***************************************
  */
- 
- .jumbotron {
- 	color:white;
- 	background-color:black;
- }
- 
+.jumbotron {
+	color:white;
+	background-color:black;
+	padding-bottom:0;
+	margin-bottom:0;
+	padding-top:0;
+	font-family: 'Spinnaker', sans-serif;
+}
 /*
   ***************************************
   BOOTSTRAP NAVBAR
@@ -85,6 +76,7 @@ a img {
 .navbar-default {
 	background-color: #000000;
 	border-color: black;
+	font-size:120%;
 }
 .navbar-default .navbar-brand {
 	color: #ffffff;
@@ -138,5 +130,4 @@ a img {
 .navbar-default .navbar-nav .open .dropdown-menu > .active > a, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
 	color: #d6d6d6;
 	background-color: #7f7f7f;
-}
 }

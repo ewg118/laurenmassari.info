@@ -18,33 +18,29 @@
         $page = $xpath->query("//page[@id='" . $id . "']")->item(0);
 
 ?>
-<DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 	<head>
 		<title>laurenmassari.info: <?php $page->getAttribute('title') ?></title>
-		
-		
-
-		<!-- jquery css dependencies -->
-		<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js">//</script>
-		<script type="text/javascript" src="<?php echo $display_path . 'js/jquery.fancybox.pack.js?v=2.1.5'?>"> //</script>
-		<script type="text/javascript" src="<?php echo $display_path . 'js/functions.js'?>"> //</script>
 		
 		<!-- css -->
 		<link href="<?php echo $display_path . 'css/jquery.fancybox.css?v=2.1.5' ?>" rel="stylesheet"/>
 		<link href="<?php echo $display_path . 'ccss/jquery-ui-1.8.10.custom.css' ?>" rel="stylesheet"/>
 		<link href="http://fonts.googleapis.com/css?family=Spinnaker|Noto+Sans" rel="stylesheet" type="text/css"/>
-		
-		<!-- bootstrap -->
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css"/>
+                <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css"/>
+		<!-- local styling -->
+		<link href="<?php echo $display_path . 'css/style.css' ?>" rel="stylesheet"/>
+
+		<!-- jquery css dependencies -->
+		<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js">//</script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js">//</script>
+		<script type="text/javascript" src="<?php echo $display_path . 'js/jquery.fancybox.pack.js?v=2.1.5'?>"> //</script>
+		<script type="text/javascript" src="<?php echo $display_path . 'js/jssor.slider.mini.js'?>"> //</script>
+                <script type="text/javascript" src="<?php echo $display_path . 'js/functions.js'?>"> //</script>
+		
                 <meta charset="utf-8"/>
                 <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
                 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-
-		<!-- local styling -->
-		<link href="<?php echo $display_path . 'css/style.css' ?>" rel="stylesheet"/>
-		
 		
 		<script type="text/javascript">
 		  var _gaq = _gaq || [];
@@ -64,17 +60,76 @@
 			echo $navbar;
 		?>
                
-                
+                <?php if ($id == 'index'){ ?>
+                    <div class="jumbotron">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div id="slider1_container" style="position: relative; top: 0px; left: 0px; width: 600px; height: 300px; overflow: hidden;">
+                                        <!-- Slides Container -->
+                                        <div u="slides" style="cursor: move; position: absolute; overflow: hidden; left: 0px; top: 0px; width: 600px; height: 300px;">
+                                            <div><img u="image" src="images/juel/juel-01.jpg" /></div>
+                                            <div><img u="image" src="images/arc605/project2-14.jpg" /></div>
+                                            <div><img u="image" src="images/montpelier/montpelier-05.jpg" /></div>  
+                                            <div><img u="image" src="images/juel/juel-08.jpg" /></div>
+                                            <div><img u="image" src="images/montpelier/montpelier-09.jpg" /></div>
+                                            <div><img u="image" src="images/arc606/arc606-02.jpg" /></div>
+                                            <div><img u="image" src="images/juel/juel-20.jpg" /></div>
+                                            <div><img u="image" src="images/minnesota/minnesota-07.jpg" /></div>  
+                                        </div>
+                                         <!-- Arrow Navigator Skin Begin -->
+                                         <style>
+                                            .jssora12l, .jssora12r, .jssora12ldn, .jssora12rdn {
+                                                    position: absolute;
+                                                    cursor: pointer;
+                                                    display: block;
+                                                    background: url(../images/a12.png) no-repeat;
+                                                    overflow:hidden;
+                                            }
+                                            .jssora12l {
+                                                    background-position: -16px -37px;
+
+                                            }
+                                            .jssora12r {
+                                                    background-position: -75px -37px;
+
+                                            }
+                                            .jssora12l:hover {
+                                                    background-position: -136px -37px;
+
+                                            }
+                                            .jssora12r:hover {
+                                                    background-position: -195px -37px;
+
+                                            }
+                                            .jssora12ldn {
+                                                    background-position: -256px -37px;
+
+                                            }
+                                            .jssora12rdn {
+                                                    background-position: -315px -37px;
+
+                                            }
+                                         </style>
+                                         <!-- Arrow Left -->
+                                         <span u="arrowleft" class="jssora12l" style="width: 30px; height: 46px; top: 123px; left: 0px;"></span>
+                                         <!-- Arrow Right -->
+                                         <span u="arrowright" class="jssora12r" style="width: 30px; height: 46px; top: 123px; right: 0px"></span>
+                                         <!-- Arrow Navigator Skin End -->
+                                         <!-- Trigger -->
+                                         <script type="text/javascript">jssor_slider1_starter('slider1_container');</script>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <h1>Lauren Massari</h1>
+                                    <p>Multimedia Designer, Institute for Advanced Technology in the Humanities</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                <?php } ?>
             
 		<div class="container">
-                     <?php /* //jumbotron
-                    if ($id == 'index'){ ?>
-                        <div class="jumbotron">
-                            <h1>Hello, world!</h1>
-                            <p>scrolling images heres</p>
-                        </div>
-                    <?php } */
-                ?>
                     <div class="row">
                         <div class="col-md-12">
                             <div class="sub-banner text-right">
@@ -148,6 +203,11 @@
                         <div class="col-md-6 text-center"><img src="images/portrait.jpg" style="max-width:100%;margin-top:60px;"/></div>
                     <?php } ?>
 		</div>
+            </div>
+            <div id="footer" class="container">
+                <div class="row">
+                    <div class="col-md-12"><p>All images copyright ©2015 Lauren Massari</p></div>
+                </div>
             </div>
 	</body>
 </html>

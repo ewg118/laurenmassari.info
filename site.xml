@@ -2,9 +2,9 @@
 <site>
 	<page id="index" title="About">
 		<p>Lauren Massari works as a Multimedia Designer for the <a href="http://www.iath.virginia.edu/">Institute for Advanced Technology in the Humanities</a>, located at the
-			University of Virginia, where she primarily does 3D architectural visualization. Projects she has worked on include <a href="http://soundscape.iath.virginia.edu/"
-				>Soundscape Architecture</a>, <a href="http://digitalmontpelier.org/">Digital Montpelier</a>, <a href="http://mhs.iath.virginia.edu/">Historic Fort Snelling</a>, <a href="http://research.history.org/vw1776/3d/">Virtual Williamsburg</a>, and <a
-				href="http://juel.iath.virginia.edu/">Jefferson's University, the Early Life (JUEL)</a>.</p>
+			University of Virginia, where she primarily does 3D architectural visualization. Projects she has worked on include <a
+				href="http://juel.iath.virginia.edu/">Jefferson's University, the Early Life (JUEL)</a>, <a href="http://soundscape.iath.virginia.edu/"
+				>Soundscape Architecture</a>, <a href="http://digitalmontpelier.org/">Digital Montpelier</a>, <a href="http://mhs.iath.virginia.edu/">Historic Fort Snelling</a>, and <a href="http://research.history.org/vw1776/3d/">Virtual Williamsburg</a>.</p>
 		<p>Lauren received a Master of Architecture from the University at Buffalo in May 2012. Her concentration was in <a href="http://idea.ap.buffalo.edu/idg/work/index.asp"
 				>Inclusive Design</a>, a multidisciplinary field that uses the Seven Principles of Universal Design to evaluate and create products and environments that promote
 			health, well-being, and social participation for a wide range of users. Lauren received an award for Design Excellence in Inclusive Design from the School of
@@ -13,108 +13,44 @@
 			Rapp &amp; Rapp and how it responded to vernacular architecture when designing small-town theaters, using the theaters in Charlottesville, Virginia and Peekskill, New
 			York as case studies.</p>
 	</page>
-	<page id="arc503" title="Downtown Buffalo Aquarium" subtitle="ARC503: Design Studio" type="academic">
-		<p>The goal of this project was to come up with a design that would attract residents and visitors alike to Downtown Buffalo as part of a waterfront revitalization project.
-			The aquarium program was to include an IMAX theater, café, and parking area. Beyond the basic program requirements, part of my design concept was to transform the site
-			into a transportation hub, concentrating vehicular, pedestrian, metro, and boat traffic in a central location, providing information about the aquarium and Buffalo, and
-			encouraging visitors to disperse across the city.</p>
-		<section title="concept">
-			<image id="concept02" title="study model"/>
-			<image id="concept01" title="circulation arms - transportation hub"/>
+	<page id="arc606" title="Residential Life" subtitle="ARC606: Residential Life" type="academic">
+		<p>For this Inclusive Design studio, each student came up with a design proposal for a <a
+			href="http://idea.ap.buffalo.edu//idg/work/Spring2012/lauren_massari/massari_1.asp">new residence hall</a> on University at Buffalo’s North Campus as part of UB’s
+			recent comprehensive physical plan.</p>
+		<p>Before beginning the design process, the studio was tasked with finding appropriate precedents in architecture periodicals. The focus was on larger-scale projects that
+			incorporated any combination of study, classroom, commercial, and recreational facilities into residential buildings or complexes, creating living-learning environments
+			for students. The studio also conducted literature reviews to discern what scientific research has discovered about the influence of the physical environment on
+			residence hall occupants. As part of this initial research, the studio also went on tours of three vastly different on-campus housing options available to University at
+			Buffalo undergraduates; Greiner Hall, Ellicott Complex, and Governors Complex.</p>
+		<p>To complement what was learned from the scientific studies, the studio also conducted focus groups with residents of the Governors Complex on UB’s North Campus. As the
+			Inclusive Design research group, the studio is focused on the users of buildings and strives to design to improve human performance, health and wellness, and social
+			participation. As occupants of on-campus housing, these students provided valuable information about what works and what needs improvement in their environment, and
+			their concerns were addressed in our design proposals.</p>
+		<p>The knowledge gathered from precedent studies, tours, literature, and focus groups was synthesized into a design that meets both the studio’s goals of Inclusive Design
+			and the university’s expectations for a living-learning environment for UB’s comprehensive physical plan.</p>
+		<portfolio href="arc606-portfolio.pdf">click to view portfolio</portfolio>
+		<section title="Site Plan Analysis">
+			<image id="site" title="site plan" type="jp2"/>
+			<image id="arc606-01" title="main axes"/>
+			<image id="arc606-02" title="outdoor gathering spaces"/>
 		</section>
-		<section title="diagrams">
-			<image id="diagram01" title="circulation"/>
-			<image id="diagram02" title="HVAC"/>
-			<image id="diagram04" title="structure - tank loading diagram"/>
-			<image id="diagram03" title="structure - column detail"/>
-			<image id="diagram05" title="wall section - natural light and ventilation"/>
+		<section title="Design Concepts">
+			<image id="arc606-03" title="circulation"/>
+			<image id="arc606-04" title="layout"/>
 		</section>
-		<section title="physical model">
-			<!--<image id="phys-model01"/>-->
-			<image id="phys-model02" title="final model"/>
-			<image id="phys-model03" title="final model"/>
-			<image id="phys-model04" title="exterior perspective"/>
-			<image id="phys-model05" title="interior perspective"/>
-			<image id="phys-model06" title="interior perspective"/>
-			<image id="phys-model07" title="outdoor café perspective "/>
+		<section title="Plans, Sections, and Elevations">
+			<image id="arc606-05" title="with program layover" type="jp2"/>
+			<image id="arc606-06" title="with program layover" type="jp2"/>
+			<image id="arc606-07" title="L3-L7" type="jp2"/>
+			<image id="arc606-08" title="outdoor patios" type="jp2"/>
+			<image id="arc606-09" title="L8-L10" type="jp2"/>
+			<image id="arc606-10" title="unit layouts" type="jp2"/>
+			<image id="arc606-11" title="sections" type="jp2"/>
+			<image id="arc606-12" title="elevation and section d-d" type="jp2"/>
 		</section>
-		<section title="drawings">
-			<image id="arc503-drawing01" title="plan" type="jp2"/>
-			<image id="arc503-drawing03" title="sections" type="jp2"/>
-			<image id="arc503-drawing02" title="elevations" type="jp2"/>
-		</section>
-	</page>
-	<page id="arc504" title="Live-Work Community" subtitle="ARC504: Comprehensive Studio" type="academic">
-		<p>The goal for comprehensive studio was to design a mixed-use project in Downtown Buffalo for a specific community, focusing on details such as structure, life safety, and
-			mechanical systems. My chosen community was cirque nouveau performers, who would live in the twenty-four residence units and practice and perform in the ellipsoid
-			theater that opens onto a busy Buffalo street. The main design challenge of this project was meeting the program requirements of twenty-four units, a public program,
-			and a parking garage that could accommodate large trucks on a relatively small urban site.</p>
-		<section title="concept">
-			<image id="concept01" title="maximizing southern exposure"/>
-			<image id="concept02" title="urban courtyards"/>
-			<image id="concept03" title="urban design - street rhythm"/>
-			<image id="concept04" title="parking ramps and structure"/>
-			<image id="concept05" title="live-work circulation and emergency egress"/>
-		</section>
-		<section title="drawings">
-			<image id="illustration01" title="ground plan" type="jp2"/>
-			<image id="arc504-drawing02" title="plans - levels 4 and 5" type="jp2"/>
-			<image id="arc504-drawing03" title="section b-b" type="jp2"/>
-			<image id="arc504-drawing04" title="structural diagrams" type="jp2"/>
-			<image id="arc504-drawing05" title="wall section" type="jp2"/>
-		</section>
-		<section title=" theater section model">
-			<image id="section01"/>
-			<image id="section02"/>
-			<image id="section03"/>
-		</section>
-		<section title="physical model">
-			<image id="phys-model01"/>
-			<image id="phys-model02"/>
-			<image id="phys-model03"/>
-			<image id="phys-model04"/>
-			<image id="phys-model05" title="view from apartment voids"/>
-		</section>
-		<section title="digital model">
-			<image id="3dmodel01" title="aerial site view"/>
-			<image id="3dmodel04" title="daytime photocollage"/>
-			<image id="3dmodel02" title="night render"/>
-			<image id="3dmodel03" title="night render"/>
-		</section>
-	</page>
-	<page id="ireland" title="Circumnavigating the Irish Coast" type="academic">
-		<p>The first month of this study abroad program was spent travelling around the Irish Coast, spending a few days each in the cities of Dublin, Cork, Killarney, Limerick,
-			Galway, Sligo, Derry, and Belfast, learning about the culture, history, and landscape of each area. During this month of travel, we studied the works of Irish authors
-			and poets and made travel-sized models based on our experiences in the cities. The second half of the trip was spent back in Dublin, where we researched Irish
-			architectural typologies and used studio space at University College Dublin to design four houses that reflected four different parts of the country.</p>
-		<portfolio href="ireland-portfolio.pdf">click to view portfolio</portfolio>
-		<section title="Dalkey Commons">
-			<image id="dalkey01" title="site plan"/>
-			<image id="dalkey02" title="plans and section" type="jp2"/>
-			<image id="dalkey03" title="physical model"/>
-			<image id="dalkey04" title="physical model"/>
-			<image id="dalkey05" title="photocollage"/>
-		</section>
-		<section title="Derry">
-			<image id="derry01" title="site plan"/>
-			<image id="derry02" title="plans and section" type="jp2"/>
-			<image id="derry03" title="physical model"/>
-			<image id="derry04" title="physical model"/>
-			<image id="derry05" title="perspective"/>
-		</section>
-		<section title="Limerick">
-			<image id="limerick01" title="site plan"/>
-			<image id="limerick02" title="plans and section" type="jp2"/>
-			<image id="limerick04" title="physical model"/>
-			<image id="limerick03" title="physical model"/>
-			<image id="limerick05" title="perspective"/>
-		</section>
-		<section title="Waterville">
-			<image id="waterville01" title="site plan"/>
-			<image id="waterville02" title="plans and section"/>
-			<image id="waterville03" title="physical model"/>
-			<image id="waterville04" title="physical model"/>
-			<image id="waterville05" title="perspective"/>
+		<section title="Renders">
+			<image id="arc606-13" title="courtyard"/>
+			<image id="arc606-14" title="overall"/>
 		</section>
 	</page>
 	<page id="arc605" title="Public|Private" subtitle="ARC605: Inclusive Design Studio" type="academic">
@@ -169,44 +105,108 @@
 			<image id="project2-14" title="render - perspective"/>
 		</section>
 	</page>
-	<page id="arc606" title="Residential Life" subtitle="ARC606: Residential Life" type="academic">
-		<p>For this Inclusive Design studio, each student came up with a design proposal for a <a
-				href="http://idea.ap.buffalo.edu//idg/work/Spring2012/lauren_massari/massari_1.asp">new residence hall</a> on University at Buffalo’s North Campus as part of UB’s
-			recent comprehensive physical plan.</p>
-		<p>Before beginning the design process, the studio was tasked with finding appropriate precedents in architecture periodicals. The focus was on larger-scale projects that
-			incorporated any combination of study, classroom, commercial, and recreational facilities into residential buildings or complexes, creating living-learning environments
-			for students. The studio also conducted literature reviews to discern what scientific research has discovered about the influence of the physical environment on
-			residence hall occupants. As part of this initial research, the studio also went on tours of three vastly different on-campus housing options available to University at
-			Buffalo undergraduates; Greiner Hall, Ellicott Complex, and Governors Complex.</p>
-		<p>To complement what was learned from the scientific studies, the studio also conducted focus groups with residents of the Governors Complex on UB’s North Campus. As the
-			Inclusive Design research group, the studio is focused on the users of buildings and strives to design to improve human performance, health and wellness, and social
-			participation. As occupants of on-campus housing, these students provided valuable information about what works and what needs improvement in their environment, and
-			their concerns were addressed in our design proposals.</p>
-		<p>The knowledge gathered from precedent studies, tours, literature, and focus groups was synthesized into a design that meets both the studio’s goals of Inclusive Design
-			and the university’s expectations for a living-learning environment for UB’s comprehensive physical plan.</p>
-		<portfolio href="arc606-portfolio.pdf">click to view portfolio</portfolio>
-		<section title="Site Plan Analysis">
-			<image id="site" title="site plan" type="jp2"/>
-			<image id="arc606-01" title="main axes"/>
-			<image id="arc606-02" title="outdoor gathering spaces"/>
+	<page id="ireland" title="Circumnavigating the Irish Coast" type="academic">
+		<p>The first month of this study abroad program was spent travelling around the Irish Coast, spending a few days each in the cities of Dublin, Cork, Killarney, Limerick,
+			Galway, Sligo, Derry, and Belfast, learning about the culture, history, and landscape of each area. During this month of travel, we studied the works of Irish authors
+			and poets and made travel-sized models based on our experiences in the cities. The second half of the trip was spent back in Dublin, where we researched Irish
+			architectural typologies and used studio space at University College Dublin to design four houses that reflected four different parts of the country.</p>
+		<portfolio href="ireland-portfolio.pdf">click to view portfolio</portfolio>
+		<section title="Dalkey Commons">
+			<image id="dalkey01" title="site plan"/>
+			<image id="dalkey02" title="plans and section" type="jp2"/>
+			<image id="dalkey03" title="physical model"/>
+			<image id="dalkey04" title="physical model"/>
+			<image id="dalkey05" title="photocollage"/>
 		</section>
-		<section title="Design Concepts">
-			<image id="arc606-03" title="circulation"/>
-			<image id="arc606-04" title="layout"/>
+		<section title="Derry">
+			<image id="derry01" title="site plan"/>
+			<image id="derry02" title="plans and section" type="jp2"/>
+			<image id="derry03" title="physical model"/>
+			<image id="derry04" title="physical model"/>
+			<image id="derry05" title="perspective"/>
 		</section>
-		<section title="Plans, Sections, and Elevations">
-			<image id="arc606-05" title="with program layover" type="jp2"/>
-			<image id="arc606-06" title="with program layover" type="jp2"/>
-			<image id="arc606-07" title="L3-L7" type="jp2"/>
-			<image id="arc606-08" title="outdoor patios" type="jp2"/>
-			<image id="arc606-09" title="L8-L10" type="jp2"/>
-			<image id="arc606-10" title="unit layouts" type="jp2"/>
-			<image id="arc606-11" title="sections" type="jp2"/>
-			<image id="arc606-12" title="elevation and section d-d" type="jp2"/>
+		<section title="Limerick">
+			<image id="limerick01" title="site plan"/>
+			<image id="limerick02" title="plans and section" type="jp2"/>
+			<image id="limerick04" title="physical model"/>
+			<image id="limerick03" title="physical model"/>
+			<image id="limerick05" title="perspective"/>
 		</section>
-		<section title="Renders">
-			<image id="arc606-13" title="courtyard"/>
-			<image id="arc606-14" title="overall"/>
+		<section title="Waterville">
+			<image id="waterville01" title="site plan"/>
+			<image id="waterville02" title="plans and section"/>
+			<image id="waterville03" title="physical model"/>
+			<image id="waterville04" title="physical model"/>
+			<image id="waterville05" title="perspective"/>
+		</section>
+	</page>
+	<page id="arc504" title="Live-Work Community" subtitle="ARC504: Comprehensive Studio" type="academic">
+		<p>The goal for comprehensive studio was to design a mixed-use project in Downtown Buffalo for a specific community, focusing on details such as structure, life safety, and
+			mechanical systems. My chosen community was cirque nouveau performers, who would live in the twenty-four residence units and practice and perform in the ellipsoid
+			theater that opens onto a busy Buffalo street. The main design challenge of this project was meeting the program requirements of twenty-four units, a public program,
+			and a parking garage that could accommodate large trucks on a relatively small urban site.</p>
+		<section title="concept">
+			<image id="concept01" title="maximizing southern exposure"/>
+			<image id="concept02" title="urban courtyards"/>
+			<image id="concept03" title="urban design - street rhythm"/>
+			<image id="concept04" title="parking ramps and structure"/>
+			<image id="concept05" title="live-work circulation and emergency egress"/>
+		</section>
+		<section title="drawings">
+			<image id="illustration01" title="ground plan" type="jp2"/>
+			<image id="arc504-drawing02" title="plans - levels 4 and 5" type="jp2"/>
+			<image id="arc504-drawing03" title="section b-b" type="jp2"/>
+			<image id="arc504-drawing04" title="structural diagrams" type="jp2"/>
+			<image id="arc504-drawing05" title="wall section" type="jp2"/>
+		</section>
+		<section title=" theater section model">
+			<image id="section01"/>
+			<image id="section02"/>
+			<image id="section03"/>
+		</section>
+		<section title="physical model">
+			<image id="phys-model01"/>
+			<image id="phys-model02"/>
+			<image id="phys-model03"/>
+			<image id="phys-model04"/>
+			<image id="phys-model05" title="view from apartment voids"/>
+		</section>
+		<section title="digital model">
+			<image id="3dmodel01" title="aerial site view"/>
+			<image id="3dmodel04" title="daytime photocollage"/>
+			<image id="3dmodel02" title="night render"/>
+			<image id="3dmodel03" title="night render"/>
+		</section>
+	</page>
+	<page id="arc503" title="Downtown Buffalo Aquarium" subtitle="ARC503: Design Studio" type="academic">
+		<p>The goal of this project was to come up with a design that would attract residents and visitors alike to Downtown Buffalo as part of a waterfront revitalization project.
+			The aquarium program was to include an IMAX theater, café, and parking area. Beyond the basic program requirements, part of my design concept was to transform the site
+			into a transportation hub, concentrating vehicular, pedestrian, metro, and boat traffic in a central location, providing information about the aquarium and Buffalo, and
+			encouraging visitors to disperse across the city.</p>
+		<section title="concept">
+			<image id="concept02" title="study model"/>
+			<image id="concept01" title="circulation arms - transportation hub"/>
+		</section>
+		<section title="diagrams">
+			<image id="diagram01" title="circulation"/>
+			<image id="diagram02" title="HVAC"/>
+			<image id="diagram04" title="structure - tank loading diagram"/>
+			<image id="diagram03" title="structure - column detail"/>
+			<image id="diagram05" title="wall section - natural light and ventilation"/>
+		</section>
+		<section title="physical model">
+			<!--<image id="phys-model01"/>-->
+			<image id="phys-model02" title="final model"/>
+			<image id="phys-model03" title="final model"/>
+			<image id="phys-model04" title="exterior perspective"/>
+			<image id="phys-model05" title="interior perspective"/>
+			<image id="phys-model06" title="interior perspective"/>
+			<image id="phys-model07" title="outdoor café perspective "/>
+		</section>
+		<section title="drawings">
+			<image id="arc503-drawing01" title="plan" type="jp2"/>
+			<image id="arc503-drawing03" title="sections" type="jp2"/>
+			<image id="arc503-drawing02" title="elevations" type="jp2"/>
 		</section>
 	</page>
 	<page id="other" title="Other Works" type="academic">
