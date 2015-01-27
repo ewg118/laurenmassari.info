@@ -270,7 +270,7 @@
 			<image id="juel-20" title="Mrs. Gray's Kitchen"/>
 		</section>
 	</page>
-	<page id="soundscape" title="Soundscape Architecture" type="professional">
+	<page id="soundscape" title="Soundscape Architecture" type="professional" image="screenshot.jpg">
 		<p><a href="http://soundscape.iath.virginia.edu/">Soundscape Architecture</a> is a collaboration between IATH and Karen Van Lengen, William R. Kenan, Jr. Professor of
 			Architecture at UVA. The project focuses on the aural qualities of iconic architecture from around the world, and seeks to analyze and reinterpret the visual, auditory,
 			and material aspects of architectural space.</p>
@@ -281,15 +281,15 @@
 			in which visitors can travel through the digitally reconstructed building phases and learn more about the mansion's restoration through slideshows documenting
 			archaeological work and analysis of findings.</p>
 		<section title="Renders">
-			<image id="montpelier-01" title="Entry 1"/>
-			<image id="montpelier-02" title="Entry 4"/>
-			<image id="montpelier-03" title="PIII 108"/>
-			<image id="montpelier-04" title="PIII Large Bedroom"/>
-			<image id="montpelier-05" title="PIII Lower North Passage"/>
-			<image id="montpelier-06" title="PIII North Wing"/>
-			<image id="montpelier-07" title="PIII South Wing"/>
-			<image id="montpelier-08" title="PIII View from Slave Yard"/>
-			<image id="montpelier-09" title="PIII West Facade"/>
+			<!--<image id="montpelier-01" title="1812 Entry Hall"/>-->
+			<image id="montpelier-02" title="1812 Entry Hall"/>
+			<image id="montpelier-03" title="1812 Drawing Room"/>
+			<image id="montpelier-04" title="1812 Large Bedroom"/>
+			<image id="montpelier-05" title="1812 Lower North Passage"/>
+			<image id="montpelier-06" title="1812 North Wing"/>
+			<image id="montpelier-07" title="1812 South Wing"/>
+			<image id="montpelier-08" title="View from Slaveyard"/>
+			<image id="montpelier-09" title="1812 Main Facade"/>
 		</section>
 	</page>
 	<page id="minnesota" title="Historical Architecture of Minnesota" type="professional">
