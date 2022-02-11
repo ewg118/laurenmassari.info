@@ -26,14 +26,14 @@
 		<!-- css -->
 		<link href="<?php echo $display_path . 'css/jquery.fancybox.css?v=2.1.5' ?>" rel="stylesheet"/>
 		<link href="<?php echo $display_path . 'css/jquery-ui-1.8.10.custom.css' ?>" rel="stylesheet"/>
-		<link href="http://fonts.googleapis.com/css?family=Spinnaker|Noto+Sans" rel="stylesheet" type="text/css"/>
+		<link href="//fonts.googleapis.com/css?family=Spinnaker|Noto+Sans" rel="stylesheet" type="text/css"/>
                 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css"/>
 		<!-- local styling -->
 		<link href="<?php echo $display_path . 'css/style.css' ?>" rel="stylesheet"/>
 
 		<!-- jquery css dependencies -->
-		<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js">//</script>
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js">//</script>
+		<script type="text/javascript" src="//code.jquery.com/jquery-latest.min.js">//</script>
+		<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js">//</script>
 		<script type="text/javascript" src="<?php echo $display_path . 'js/jquery.fancybox.pack.js?v=2.1.5'?>"> //</script>
 		<script type="text/javascript" src="<?php echo $display_path . 'js/jssor.slider.mini.js'?>"> //</script>
                 <script type="text/javascript" src="<?php echo $display_path . 'js/functions.js'?>"> //</script>
@@ -135,9 +135,8 @@
                             <div class="sub-banner text-right">
                                     <span><a href="mailto:lauren.massari@gmail.com">lauren.massari@gmail.com</a></span>
                                     <span class="divider">|</span>
-                                    <span><a href="http://www.linkedin.com/in/laurenmassari"><img src="images/linkedin.png" alt="LinkedIn"/></a></span>
-                                    <span><a href="http://www.flickr.com/photos/laurenmassari/"><img src="images/flickr.png" alt="flickr"/></a></span>
-                                    <span><a href="http://twitter.com/lauren_massari"><img src="images/twitter.png" alt="twitter"/></a></span>
+                                    <span><a href="https://www.linkedin.com/in/laurenmassari"><img src="images/linkedin.png" alt="LinkedIn"/></a></span>
+                                    <span><a href="https://twitter.com/lauren_massari"><img src="images/twitter.png" alt="twitter"/></a></span>
                             </div>
                         </div>
                     </div>
