@@ -25,7 +25,7 @@
 		
 		<!-- css -->
 		<link href="<?php echo $display_path . 'css/jquery.fancybox.css?v=2.1.5' ?>" rel="stylesheet"/>
-		<link href="<?php echo $display_path . 'ccss/jquery-ui-1.8.10.custom.css' ?>" rel="stylesheet"/>
+		<link href="<?php echo $display_path . 'css/jquery-ui-1.8.10.custom.css' ?>" rel="stylesheet"/>
 		<link href="http://fonts.googleapis.com/css?family=Spinnaker|Noto+Sans" rel="stylesheet" type="text/css"/>
                 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css"/>
 		<!-- local styling -->
